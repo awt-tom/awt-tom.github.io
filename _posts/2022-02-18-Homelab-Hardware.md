@@ -5,7 +5,7 @@ categories: [Homelab, Hardware]
 tags: [homelab]     # TAG names should always be lowercase
 img_path: /assets/screenshots/homelab
 image:
-  path: Dell_Poweredge_R720.jpg
+  path: Dell-Poweredge-R720.jpg
   width: 100%
   height: 100%
   alt: The Dell PowerEdge R720
@@ -53,7 +53,7 @@ Now onto the more fun hardware part, the server!
 
 My colleague, friend and homelab buddy Mikey had a spare server for sale. It was a Dell Poweredge R720, which was an amazing start for this lab!
 
-![Desktop View,img-description](Dell_Poweredge_R720.jpg){: width="700" height="400" }
+![Desktop View,img-description](Dell-Poweredge-R720.jpg){: width="700" height="400" }
 _The Dell Poweredge R720_
 
 It contained the following parts
