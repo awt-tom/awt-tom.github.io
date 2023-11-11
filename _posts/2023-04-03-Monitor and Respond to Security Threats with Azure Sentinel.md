@@ -4,7 +4,7 @@ date: 2023-04-03
 description: Start use Azure Sentinel for your organization. 
 categories: [Azure,Azure Sentinel]
 tags: [azure,sentinel,siem,security]
-img_path: /assets/screenshots/siem
+img_path: ./assets/screenshots/siem
 image:
   path: sentinel.png
   width: 100%

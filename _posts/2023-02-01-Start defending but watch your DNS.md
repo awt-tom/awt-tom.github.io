@@ -4,7 +4,7 @@ date: 2023-02-01
 description: Once we start defending our environments, what is there to lookout for outside your Microsoft environment?
 categories: [Domains,DNS]
 tags: [azure,dns,spf,dkim,dmark]
-img_path: /assets/screenshots/defending
+img_path: ./assets/screenshots/defending
 image:
   path: Defender.png
   width: 100%

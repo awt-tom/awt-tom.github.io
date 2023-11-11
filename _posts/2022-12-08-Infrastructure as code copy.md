@@ -4,7 +4,7 @@ date: 2022-12-08
 description: The first bits of Infrastructure as Code in Azure to deploy your first resources!
 categories: [Azure,Infrastructure as Code]
 tags: [iac,infrastructure as code,arm,azure,azure resource manager,deployment] # TAG names should always be lowercase
-img_path: /assets/screenshots/iac
+img_path: ./assets/screenshots/iac
 image:
   path: iac.jpg
   width: 100%

@@ -3,7 +3,7 @@ title: The Kusto Detective Agency
 date: 2022-11-14
 categories: [KQL,Kusto Detective Agency]
 tags: [kql,kusto detective agency,kusto query language,]     # TAG names should always be lowercase
-img_path: /assets/img/kda
+img_path: ./assets/img/kda
 image:
   path: kda.jpg
   width: 100%
