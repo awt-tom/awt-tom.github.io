@@ -1,5 +1,5 @@
 ---
-title: Start defending, but watch your DNS (part 1/2)
+title: Start defending, but watch your DNS
 date: 2023-02-01
 description: Once we start defending our environments, what is there to lookout for outside your Microsoft environment?
 categories: [Domains,DNS]
