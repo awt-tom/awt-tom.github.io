@@ -3,7 +3,7 @@ title: The Homelab
 date: 2022-02-18
 categories: [Homelab, Hardware]
 tags: [homelab]     # TAG names should always be lowercase
-img_path: ./assets/img/thehomelab
+img_path: /assets/img/thehomelab
 image:
   path: Dell_Poweredge_R720.jpg
   width: 100%
