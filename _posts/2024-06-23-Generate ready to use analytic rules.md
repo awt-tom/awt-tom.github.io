@@ -29,6 +29,8 @@ This PowerShell script automates the process of downloading YAML files from the 
 
 This way the Analytic rules are all sorted per solution which makes it easier to pick these rules based on their solution name. The Analytic rules are ready to be used and can straight up be used to import  them in Microsoft Sentinel. Adding the rules to for example Azure Devops or Github makes it possible to deploy all the analytic rules at once.
 
+You can find the script in my [Github page](https://github.com/awt-tom/mass-yaml-to-json)
+
 
 ## How does it work?
 
