@@ -3,8 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-My name is [Tom Rolvers](https://www.linkedin.com/in/tomrolvers), Security consultant at [Yellow Arrow](https://yellowarrow.nl/) in the Netherlands.
-
 👋 Hi there! I'm [Tom Rolvers](https://www.linkedin.com/in/tomrolvers), a Security Consultant at [Yellow Arrow](https://yellowarrow.nl/) in the Netherlands. My journey with Microsoft Security products began as a hobby, evolved into a passion, and now fuels my career. I thrive on exploring new tools and techniques to enhance our digital security.
 
 In my free time, I enjoy cycling 🚴, savoring beers and whiskeys 🍻, and diving into online challenges like Hack the Box and TryHackMe. I also dabble in malware analysis and homelabbing.
