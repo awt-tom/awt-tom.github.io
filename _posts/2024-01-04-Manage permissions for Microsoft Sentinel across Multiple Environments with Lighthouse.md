@@ -2,7 +2,7 @@
 title: Manage permissions for Microsoft Sentinel across Multiple Environments with Lighthouse
 date: 2024-01-04
 description: Manage permissions for Microsoft Sentinel across Multiple Environments with Lighthouse
-categories: [Azure,Lighthouse]
+categories: [Microsoft Sentinel,Lighthouse]
 tags: [iac,infrastructure as code,arm,azure,lighthouse,sentinel] # TAG names should always be lowercase
 media_subpath: /assets/img/lighthouse/
 image:
