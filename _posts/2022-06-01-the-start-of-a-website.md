@@ -3,6 +3,12 @@ title: The start of a website
 date: 2022-06-01
 categories: [Homelab, Website]
 tags: [homelab,website,github,self-hosted,jekyll]     # TAG names should always be lowercase
+media_subpath: /assets/img/the_start_of_a_website
+image:
+  path: the_start_of_a_website.png
+  width: 100%
+  height: 100%
+  alt:
 ---
 
 # The start of a website

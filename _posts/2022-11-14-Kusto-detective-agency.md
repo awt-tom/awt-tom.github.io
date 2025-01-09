@@ -5,7 +5,7 @@ categories: [KQL,Kusto Detective Agency]
 tags: [kql,kusto detective agency,kusto query language,]     # TAG names should always be lowercase
 media_subpath: /assets/img/kda
 image:
-  path: kda.jpg
+  path: kda.png
   width: 100%
   height: 100%
   alt: Import script KDA

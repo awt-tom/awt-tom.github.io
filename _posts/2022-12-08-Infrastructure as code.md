@@ -6,7 +6,7 @@ categories: [Azure,Infrastructure as Code]
 tags: [iac,infrastructure as code,arm,azure,azure resource manager,deployment] # TAG names should always be lowercase
 media_subpath: /assets/img/iac/
 image:
-  path: iac.jpg
+  path: iac.png
   width: 100%
   height: 100%
   alt: JSON Schematic

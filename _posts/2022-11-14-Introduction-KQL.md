@@ -3,6 +3,12 @@ title: Get started with KQL today!
 date: 2022-11-14
 categories: [KQL,What is KQL]
 tags: [kql,kusto query language,azure data explorer,what is kql,beginner]     # TAG names should always be lowercase
+media_subpath: /assets/img/introduction_kql
+image:
+  path: introduction_kql.png
+  width: 100%
+  height: 100%
+  alt:
 ---
 
 # What is KQL?
