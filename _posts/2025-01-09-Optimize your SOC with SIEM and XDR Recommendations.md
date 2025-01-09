@@ -1,6 +1,6 @@
 ---
 title: Optimize your SOC with SIEM and XDR Recommendations
-date: 2025-01-08
+date: 2025-01-09
 description: Use the Microsoft XDR optimization feature to improve a unified SIEM and XDR environment
 categories: [Microsoft Sentinel,XDR]
 tags: [xdr,analytic rules,optimization,security coverage,microsoft sentinel,mitre] # TAG names should always be lowercase
