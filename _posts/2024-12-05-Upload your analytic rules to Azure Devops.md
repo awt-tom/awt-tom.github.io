@@ -20,7 +20,7 @@ Luckily, there's a shortcut—and it comes from Microsoft's GitHub page. This re
 
 Here's what we can do to make this easier: the repository contains YAML files for these detection rules, and by using a little scripting magic, we can convert them to JSON. Why JSON, you ask? Because this format makes it easy to import the rules into DevOps, giving you a centralized place to manage, update, and stage your detection rules for deployment. 
 
-> A big thanks to [Fabian Bader](https://cloudbrothers.info/) for its continues work on the convertion module. Without this module the scripting would have been allot more work.
+> A big thanks to [Fabian Bader](https://cloudbrothers.info/){:target="_blank"} for its continues work on the convertion module. Without this module the scripting would have been allot more work.
 {: .prompt-info }
 
 But it doesn't stop there. By following this blog, you'll be able to convert all these analytic rules from your chosen connectors and store them in a well-organized folder structure. I've set it up so that every rule is neatly organized in its respective connector folder. This makes sorting and finding the rules you need as easy as it gets, so you can customize and deploy them specifically for your environment.
@@ -33,7 +33,7 @@ In this first part we will create the analytic rules and store them into Azure d
 ### Cloning
 Let's get to business:
 
-- Head over to my GitHub repository: [Mass YAML to JSON](https://github.com/awt-tom/mass-yaml-to-json).
+- Head over to my GitHub repository: [Mass YAML to JSON](https://github.com/awt-tom/mass-yaml-to-json){:target="_blank"}.
 
 Clone or download the script to your local environment where you want it to be.
 
@@ -49,7 +49,7 @@ If you clone, copy the git line here and place it in the terminal in your VSCode
 
 - Execute the `Convert-YamlToJson.ps1` script.
 
-It will now do a few checks to see if Git and the PS Module SentinelARConverter are installed, as explained in this blog post [link](https://azurewithtom.com/posts/Generate-ready-to-use-analytic-rules/).
+It will now do a few checks to see if Git and the PS Module SentinelARConverter are installed, as explained in this blog post [link](https://azurewithtom.com/posts/Generate-ready-to-use-analytic-rules/){:target="_blank"}.
 
 ![Desktop View,img-description](downloadgithub.jpg)
 
@@ -67,7 +67,7 @@ The conversion should have started by now, and once it's finished, it will gener
 
 ### Storing the detection rules
 
-1. Head over to [dev.azure.com](https://dev.azure.com).
+1. Head over to [dev.azure.com](https://dev.azure.com){:target="_blank"}.
 2. Create a new project if you don't have one yet, and create a new repo. Name it whatever you like.
 3. Copy the "Clone to your Computer" URL within your Devops repo and go back to VSCode. Create a new window to have a fresh space to work with.
 4. Open up a terminal and make sure you are in the right path.

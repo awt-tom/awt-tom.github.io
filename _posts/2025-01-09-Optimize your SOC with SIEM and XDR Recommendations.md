@@ -13,7 +13,7 @@ image:
 ---
 ## Introduction
 
-Microsoft has released a new unified coverage experience for SOC optimization. Previously, it was possible to get recommendations in Sentinel through the SOC optimization tab, which can also be accessed at [security.microsoft.com](https://security.microsoft.com).
+Microsoft has released a new unified coverage experience for SOC optimization. Previously, it was possible to get recommendations in Sentinel through the SOC optimization tab, which can also be accessed at [security.microsoft.com](https://security.microsoft.com){:target="_blank"}.
 
 ![Desktop View](SOC_optimization_button.png)
 
@@ -80,7 +80,7 @@ For example. Traditionally we would note down one of the MITRE formats.
 #### Example Scenario: Initial Access
 
 **Tactic:** Initial Access  
-**Technique:** [Spear Phishing Attachment (T1566.001)](https://attack.mitre.org/techniques/T1566/001/)  
+**Technique:** [Spear Phishing Attachment (T1566.001)](https://attack.mitre.org/techniques/T1566/001/){:target="_blank"} 
 **Description:** Adversaries may send emails with malicious attachments to exploit users and gain system access.  
 
 **Detection Coverage:**
@@ -110,7 +110,7 @@ Here we can see that we do not have the products enabled and so we do not have t
 
 ![Desktop View](full-threat-overview.png)
 
-> Optionally you could grab the detection rule from the content hub, install them in your test environment and export them. You can then convert them with the tool as explained in my [earlier blogpost](https://azurewithtom.com/posts/Generate-ready-to-use-analytic-rules/) by adding a folder "Custom" to convert it to JSON format. It can than be deployed through the use of code.
+> Optionally you could grab the detection rule from the content hub, install them in your test environment and export them. You can then convert them with the tool as explained in my [earlier blogpost](https://azurewithtom.com/posts/Generate-ready-to-use-analytic-rules/){:target="_blank"} by adding a folder "Custom" to convert it to JSON format. It can than be deployed through the use of code.
 {: .prompt-info }
 
 ## Conclusion

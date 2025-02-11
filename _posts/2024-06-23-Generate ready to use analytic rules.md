@@ -19,7 +19,7 @@ When I started exploring Microsoft Sentinel I started to find out that managing 
 We could either install one of the now used solutions in the content hub to get rule templates. But this will still require you to enable the rules and take certain steps in order to get them working. Importing rules one by one was also a very time consuming task. 
 Along the way I tried many things that suited my situation to get a good start in enabling detections and being able to update them.
 
-Fellow tech enthusiasts and friend **[Fabian Bader](https://cloudbrothers.info/en/aboutme/)** has created a great Powershell module called **[SentinelARConverter](https://github.com/f-bader/SentinelARConverter)** which has the possibility to convert Analytic rules in **YAML** form to **JSON**. This is especially useful to convert them in a way that they can be used to import the Analytic Rules with the use of Powershell.
+Fellow tech enthusiasts and friend **[Fabian Bader](https://cloudbrothers.info/en/aboutme/){:target="_blank"}** has created a great Powershell module called **[SentinelARConverter](https://github.com/f-bader/SentinelARConverter){:target="_blank"}** which has the possibility to convert Analytic rules in **YAML** form to **JSON**. This is especially useful to convert them in a way that they can be used to import the Analytic Rules with the use of Powershell.
 
 Because I wanted to run multiple conversions and to be able to get the most recent version of detection rules I created a script. The script uses this tool and is able to grab the YAML files from the **Microsoft Github repository** which contain **Analytic rules** by **Solution name**.
 
@@ -29,7 +29,7 @@ This PowerShell script automates the process of downloading YAML files from the 
 
 This way the Analytic rules are all sorted per solution which makes it easier to pick these rules based on their solution name. The Analytic rules are ready to be used and can straight up be used to import  them in Microsoft Sentinel. Adding the rules to for example Azure Devops or Github makes it possible to deploy all the analytic rules at once.
 
-You can find the script in my [Github page](https://github.com/awt-tom/mass-yaml-to-json)
+You can find the script in my [Github page](https://github.com/awt-tom/mass-yaml-to-json){:target="_blank"}
 
 
 ## How does it work?
@@ -63,7 +63,7 @@ The script automates several crucial tasks:
 
 ### **Prerequisites**
 
-- **Git**: Ensure Git is installed and available in the system path. Download from [git-scm.com](https://git-scm.com) and follow installation instructions.
+- **Git**: Ensure Git is installed and available in the system path. Download from [git-scm.com](https://git-scm.com){:target="_blank"} and follow installation instructions.
 - **PowerShell Execution Policy**: Set to allow running scripts, e.g., `Set-ExecutionPolicy`.
 - **SentinelARConverter Module**: Required for converting formats; the script will ask to install it if not found.
 

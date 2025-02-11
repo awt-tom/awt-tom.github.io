@@ -29,7 +29,7 @@ When you have integrated your Microsoft Sentinel workspace in the Microsoft XDR 
 
 To access this feature:
 
-- Open the Microsoft XDR portal at [https://security.microsoft.com](https://security.microsoft.com).
+- Open the Microsoft XDR portal at [https://security.microsoft.com](https://security.microsoft.com){:target="_blank"}.
 - Navigate to the tab “Microsoft Sentinel.”
 - Under “Threat Management,” click on “Workbooks.”
 - You will see the new workbook page where you can view your current workbooks and add new ones to enhance your toolbox.

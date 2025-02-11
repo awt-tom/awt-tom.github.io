@@ -20,7 +20,7 @@ For organizations, MSP’s or perhaps enthusiastic Homelab users managing Micros
 
 ## What is Azure Lighthouse?
 
-[Azure Lighthouse](https://learn.microsoft.com/en-us/azure/lighthouse/overview) offers a scalable, efficient way to manage services across multiple Azure tenants. It’s designed to help service providers create a structured governance, see which offers have certain sets of roles. This helps in managing resources of different tenants.
+[Azure Lighthouse](https://learn.microsoft.com/en-us/azure/lighthouse/overview){:target="_blank"} offers a scalable, efficient way to manage services across multiple Azure tenants. It’s designed to help service providers create a structured governance, see which offers have certain sets of roles. This helps in managing resources of different tenants.
 
 ## Key Benefits
 
@@ -30,13 +30,13 @@ For organizations, MSP’s or perhaps enthusiastic Homelab users managing Micros
 
 ## Implementation
 
-Although we could pick different approaches and take automation in consideration with bicep templates or API’s I try to keep this approach as easy as possible. Therefore we pick the JSON Template format and deploy a **“Custom Deployment”** via Azure portal. If you are not known yet with [JSON template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal), make sure to read the Microsoft documentation. It is most useful, and a fun way to learn more about deploying resources!
+Although we could pick different approaches and take automation in consideration with bicep templates or API’s I try to keep this approach as easy as possible. Therefore we pick the JSON Template format and deploy a **“Custom Deployment”** via Azure portal. If you are not known yet with [JSON template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal){:target="_blank"}, make sure to read the Microsoft documentation. It is most useful, and a fun way to learn more about deploying resources!
 
 Before we begin we should create a few groups within Entra ID to be able to attach these groups in our template. These groups can be attached to for example access packages for access based on function within an organization or add users the traditional way.  
 
 ### Creating Groups
 
-Before we begin we should create a few groups within [Entra ID](https://entra.microsoft.com) to be able to attach these groups in our template. These groups can be attached to for example access packages for access based on job title within an organization or add users the traditional way. These groups are an example of setting up. There are more roles and ways to use this. Make sure you check your current access and review where needed.
+Before we begin we should create a few groups within [Entra ID](https://entra.microsoft.com){:target="_blank"} to be able to attach these groups in our template. These groups can be attached to for example access packages for access based on job title within an organization or add users the traditional way. These groups are an example of setting up. There are more roles and ways to use this. Make sure you check your current access and review where needed.
 
 ![Desktop View,img-description](creategroup.png)
 
@@ -46,7 +46,7 @@ Before we begin we should create a few groups within [Entra ID](https://entra.mi
 4. AzurewithTom - Playbook Operator
 5. AzurewithTom - Sentinel Contributor
 
-Check out the list of [Roles](https://learn.microsoft.com/en-us/azure/sentinel/roles) to see which role gives what access.
+Check out the list of [Roles](https://learn.microsoft.com/en-us/azure/sentinel/roles){:target="_blank"} to see which role gives what access.
 
 ### The Template
 Once you got that set we can continue to setup our template. Let’s start with explaining each section of the template that you will find further up on this page.
@@ -167,12 +167,12 @@ Outputs the offer name and authorizations array.
 
 So you got your groups created, template set with the correct parameters and roles. You've checked it a thousand times, so it’s time to deploy it!
 
-1. Log in to the [Azure Portal](https://portal.azure.com/) of the tenant you want to manage (not the one in the template).
+1. Log in to the [Azure Portal](https://portal.azure.com/){:target="_blank"} of the tenant you want to manage (not the one in the template).
 2. Search for **“Custom deployment”** and click on **“Deploy a custom template”**.
 
 ![Desktop View,img-description](customdeployment.png) 
 
- Or take the shortcut: [Deploy a custom template](https://portal.azure.com/#create/Microsoft.Template) 😉
+ Or take the shortcut: [Deploy a custom template](https://portal.azure.com/#create/Microsoft.Template){:target="_blank"} 😉
 
 3. Click on **"Build your own template in the editor"**, remove the default code, and add your template. Save to continue.
 4. Ensure everything is correct and select your preferred region (e.g., **West Europe**). Click Next to validate and deploy.
@@ -180,7 +180,7 @@ So you got your groups created, template set with the correct parameters and rol
 ### Validate It Works
 
 To ensure the deployment is correct:
-1. Go to **"[Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers)"** in the Azure Portal to see if your offer is listed.
+1. Go to **"[Service Providers](https://portal.azure.com/#view/Microsoft_Azure_CustomerHub/ServiceProvidersBladeV2/~/providers){:target="_blank"}"** in the Azure Portal to see if your offer is listed.
 2. In your main tenant, navigate to Microsoft Sentinel in the Azure Portal.
 3. If you have selected multiple subscriptions you will be able to see more Sentinel Workspaces.
 
