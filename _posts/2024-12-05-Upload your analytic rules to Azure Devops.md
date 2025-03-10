@@ -6,7 +6,7 @@ categories: [Microsoft Sentinel,Devops]
 tags: [azuredevops,analytic rules,json,azure,sentinel] # TAG names should always be lowercase
 media_subpath: /assets/img/analyticrulesindevops/
 image:
-  path: devops.png
+  path: ardevopsbanner.png
   width: 100%
   height: 100%
   alt:
