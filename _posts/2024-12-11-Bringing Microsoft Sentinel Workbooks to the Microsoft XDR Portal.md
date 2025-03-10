@@ -6,7 +6,7 @@ categories: [Microsoft XDR,Workbooks]
 tags: [sentinel,workbooks,xdr] # TAG names should always be lowercase
 media_subpath: /assets/img/workbooktoxdr
 image:
-  path: XDRworkbooks.png
+  path: workbookbanner.png
   width: 100%
   height: 100%
   alt:
