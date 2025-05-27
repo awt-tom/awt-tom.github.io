@@ -3,7 +3,23 @@ title: Monitor and Respond to Security Threats with Azure Sentinel
 date: 2023-04-03
 description: Start use Azure Sentinel for your organization. 
 categories: [Microsoft Sentinel,Information]
-tags: [azure,sentinel,siem,security]
+tags: [  
+  microsoft sentinel,
+  siem solution,
+  threat detection,
+  incident response,
+  sentinel playbooks,
+  logic apps,
+  alert enrichment,
+  sentinel dashboard,
+  security monitoring,
+  azure security,
+  community detection rules,
+  threat intelligence,
+  security analytics,
+  sentinel alerts
+]
+
 media_subpath: /assets/img/siem
 image:
   path: sentinel.png

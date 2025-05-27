@@ -2,8 +2,25 @@
 title: Implementing Attack Surface Reduction Policies
 date: 2025-04-14
 description: Start implement Microsoft's Attack Surface Reduction (ASR) policies today!
-categories: [Defender, ASR]
-tags: [attack surface reduction,security hardening,asr, ] # TAG names should always be lowercase
+categories: [Defender, ASR, Intune]
+tags: [  
+  microsoft defender for endpoint,
+  attack surface reduction,
+  asr rules,
+  endpoint security,
+  windows security,
+  threat prevention,
+  malware defense,
+  intune security policies,
+  blocking malicious behavior,
+  wildcard exclusions risk,
+  security hardening windows 10,
+  security hardening windows 11,
+  device security,
+  kql for asr,
+  audit mode in intune,
+  defender for endpoint tips
+] # TAG names should always be lowercase
 media_subpath: /assets/img/asr
 image:
   path: asrbanner.png

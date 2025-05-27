@@ -3,7 +3,26 @@ title: The hidden danger of device code phishing
 date: 2025-02-18
 description: Currently there is a peak in abuse of device codes which are gathered by phishing attempts
 categories: [Entra ID, Conditional Access]
-tags: [device codes,conditional access,block,security hardening,phishing] # TAG names should always be lowercase
+tags: [  
+  device code phishing,
+  microsoft defender,
+  entra id,
+  conditional access,
+  phishing detection,
+  storm-2372,
+  device registration abuse,
+  azure ad sign-in logs,
+  device code flow,
+  teams phone security,
+  authentication flow abuse,
+  azure security,
+  microsoft 365 security,
+  token-based attacks,
+  refresh token abuse,
+  rogue device registration,
+  attacker persistence,
+  kql phishing detection
+] # TAG names should always be lowercase
 media_subpath: /assets/img/devicecode
 image:
   path: devicecode.png

@@ -3,7 +3,26 @@ title: E5 Security Addon Now Available to Microsoft 365 Business Premium
 date: 2025-03-11
 description: Enhance your Microsoft 365 Business Premium security with the E5 Security Addon. Gain access to advanced Defender features and security hardening tools.
 categories: [Defender, Security, Microsoft 365]
-tags: [attack surface reduction, security hardening, asr, microsoft defender, smb security]
+tags: [  
+  microsoft 365 business premium,
+  e5 security addon,
+  microsoft defender for endpoint plan 2,
+  defender for identity,
+  defender for office 365,
+  defender for cloud apps,
+  microsoft xdr,
+  advanced hunting,
+  safe links,
+  phishing simulations,
+  app registration monitoring,
+  smb security,
+  microsoft licensing,
+  endpoint protection,
+  microsoft security stack,
+  security hardening,
+  security add-on,
+  defender for business
+]
 media_subpath: /assets/img/E5security
 image:
   path: E5securitybanner.png

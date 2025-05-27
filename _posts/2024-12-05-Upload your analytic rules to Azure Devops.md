@@ -3,7 +3,26 @@ title: Upload your analytic rules to Azure Devops
 date: 2024-12-05
 description: Today we will create our detection rules and make them available in Azure Devops
 categories: [Microsoft Sentinel,Devops]
-tags: [azuredevops,analytic rules,json,azure,sentinel] # TAG names should always be lowercase
+tags: [  
+  azure devops,
+  analytic rules,
+  microsoft sentinel,
+  sentinel automation,
+  yaml to json,
+  detection rule deployment,
+  sentinel devops integration,
+  kql detection rules,
+  sentinel analytic rules,
+  security rule management,
+  json conversion,
+  microsoft security tools,
+  azure automation,
+  security operations,
+  security content deployment,
+  cloud security automation,
+  sentinel content hub
+]
+ # TAG names should always be lowercase
 media_subpath: /assets/img/analyticrulesindevops/
 image:
   path: ardevopsbanner.png

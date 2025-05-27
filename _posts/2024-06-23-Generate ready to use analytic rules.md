@@ -3,7 +3,26 @@ title: Generate ready to use analytic rules
 date: 2024-06-23
 description: We will use a script I recently created to generate a set of analytic rules, ready to be used in Microsoft Sentinel.
 categories: [Microsoft Sentinel,Analytic Rules]
-tags: [converting,powershell,analytic rules,arm,yaml,azure,sentinel] # TAG names should always be lowercase
+tags: [  
+  microsoft sentinel,
+  analytic rules,
+  powershell script,
+  yaml to json,
+  sentinel automation,
+  sentinelarconverter,
+  azure sentinel github,
+  arm templates,
+  security rule conversion,
+  sentinel deployment,
+  detection rules,
+  azure devops integration,
+  security as code,
+  kql rules,
+  detection engineering,
+  cloud security automation,
+  yaml conversion
+]
+ # TAG names should always be lowercase
 media_subpath: /assets/img/massyamltojson/
 image:
   path: script_afbeelding.jpg

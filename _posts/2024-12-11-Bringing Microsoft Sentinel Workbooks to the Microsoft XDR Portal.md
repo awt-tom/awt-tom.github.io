@@ -3,7 +3,29 @@ title: Bringing Microsoft Sentinel Workbooks to the Microsoft XDR Portal
 date: 2024-12-11
 description: Microsoft has added the Microsoft Sentinel Workbooks to the XDR portal
 categories: [Microsoft XDR,Workbooks]
-tags: [sentinel,workbooks,xdr] # TAG names should always be lowercase
+tags: [  
+  microsoft sentinel,
+  microsoft xdr,
+  sentinel workbooks,
+  xdr portal,
+  unified security operations,
+  threat hunting,
+  siem dashboards,
+  kql queries,
+  threat visibility,
+  workbook integration,
+  single pane of glass,
+  security analytics,
+  log analytics,
+  security monitoring,
+  workbook customization,
+  defender portal integration,
+  xdr workbooks,
+  hunting dashboards,
+  azure security,
+  community workbooks
+]
+ # TAG names should always be lowercase
 media_subpath: /assets/img/workbooktoxdr
 image:
   path: workbookbanner.png
