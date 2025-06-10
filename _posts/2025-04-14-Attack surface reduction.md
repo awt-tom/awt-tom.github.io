@@ -2,7 +2,7 @@
 title: Implementing Attack Surface Reduction Policies
 date: 2025-04-14
 description: Start implement Microsoft's Attack Surface Reduction (ASR) policies today!
-categories: [Defender, ASR, Intune]
+categories: [Intune, ASR]
 tags: [  
   microsoft defender for endpoint,
   attack surface reduction,

@@ -2,7 +2,7 @@
 title: The hidden danger of device code phishing
 date: 2025-02-18
 description: Currently there is a peak in abuse of device codes which are gathered by phishing attempts
-categories: [Entra ID, Conditional Access]
+categories: [Microsoft Entra ID, Conditional Access]
 tags: [  
   device code phishing,
   microsoft defender,
